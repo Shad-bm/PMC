@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DiseaseFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <ImageButton
+        android:id="@+id/backBT"
+        android:layout_width="63dp"
+        android:layout_height="51dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/back"
+        android:hapticFeedbackEnabled="false"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView"
+            android:layout_width="374dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/diseases_and_conditions"
+            android:textAlignment="viewStart"
+            android:textColor="#004053"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <SearchView
+            android:id="@+id/disSearch"
+            android:layout_width="379dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:queryHint="Enter a Disease name."
+            android:iconifiedByDefault="false"
+            android:background="@drawable/searchbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/searchBT"
+            android:layout_width="151dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/search"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#003E4F"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.938"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/disSearch"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

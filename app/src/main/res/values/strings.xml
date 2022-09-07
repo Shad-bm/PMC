@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PMC</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_fragment">Login fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="sign_in_to_continue">Sign In to continue</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register">Register</string>
+    <string name="todo">TODO</string>
+    <string name="background">background</string>
+    <string name="setting">Setting</string>
+    <string name="pmc_logo">PMC logo</string>
+    <string name="search_by_symptoms">Search By Symptoms</string>
+    <string name="search_by_disease">Search by Disease</string>
+    <string name="symptom_and_disease_checker">Symptom \n Disease checker</string>
+    <string name="identify_possible">Identify possible condition related to your symptoms and findOut more about diseases</string>
+    <string name="back">back</string>
+    <string name="symptom_checker">Symptom Checker</string>
+    <string name="e_g_headache">Enter a Symptom, e.g.headache</string>
+    <string name="letsStart">Let\'s start with the symptom that\'s troubling you the most.</string>
+    <string name="search">Search</string>
+    <string name="diseases_and_conditions">Diseases and conditions</string>
+    <string name="search_result">Search Result</string>
+    <string name="disease_name">Disease Name</string>
+    <string name="more_detail">more detail ...</string>
+</resources>
